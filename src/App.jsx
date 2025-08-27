@@ -3,7 +3,6 @@ import CoreStatus from './components/CoreStatus';
 import LineChart from './components/LineChart';
 import ScrollingText from './components/ScrollingText';
 import SineWave from './components/SineWave';
-
 // Main App Component
 export default function App() {
   return (
@@ -26,6 +25,7 @@ export default function App() {
             <h2 className="text-center border-b border-green-500 mb-2">_GALACTIC_FREQUENCY_ANALYSIS_</h2>
             <div className="flex-1 min-h-0 max-h-64">
               <BarChart />
+
             </div>
           </div>
           <div className="border border-green-500 p-2 flex-1 flex flex-col shadow-[0_0_10px_rgba(0,255,0,0.4)] min-h-0">
